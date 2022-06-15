@@ -65,6 +65,13 @@
     align-items: center;
 }
 
+.i-scroll {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 20px;   
+}
+
 .i-img {
     width: auto;
     height: 100%;
@@ -83,3 +90,4 @@
     top: 0;
     right: 0;
 }
+
