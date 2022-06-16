@@ -28,6 +28,15 @@ function About() {
                 <p className="a-sub">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat mollitia inventore ipsa ab, nobis, cupiditate praesentium nesciunt doloremque amet in at assumenda! Voluptatum reiciendis itaque, doloremque sed ducimus ex enim.
                 </p>
+                <div className="i-title">
+                        <div className="i-title-wrapper">
+                            <div className="i-title-item">Web Developer</div>
+                            <div className="i-title-item">Web Developer</div>
+                            <div className="i-title-item">Web Developer</div>
+                            <div className="i-title-item">Web Developer</div>
+                            <div className="i-title-item">Web Developer</div>
+                        </div>
+                    </div>
             </div>
             <div className="a-right-bot">
                 <div className="a-award">
