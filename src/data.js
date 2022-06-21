@@ -1,0 +1,27 @@
+export const products = [
+    {
+        id:1,
+        img:"https://ibb.co/grRXWrh",
+        link:"https://github.com/br1lisboa/carrito_eCommerce",
+    },
+    {
+        id:2,
+        img:"https://i.postimg.cc/ZWTF2XK1/proy2.png",
+        link:"https://github.com/br1lisboa/carrito_eCommerce",
+    },
+    {
+        id:3,
+        img:"https://i.postimg.cc/jDZQbvDC/proy3.png",
+        link:"https://github.com/br1lisboa/carrito_eCommerce",
+    },
+    {
+        id:4,
+        img:"https://i.postimg.cc/2qyd8vWG/proy4.png",
+        link:"https://github.com/br1lisboa/carrito_eCommerce",
+    },
+    {
+        id:5,
+        img:"https://i.postimg.cc/cr7BDdZR/proy5.png",
+        link:"https://github.com/br1lisboa/carrito_eCommerce",
+    },
+];

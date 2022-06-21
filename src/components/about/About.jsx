@@ -32,13 +32,18 @@ function About() {
                 </div>
                 <div className="i-title-b">
                         <div className="i-title-wrapper">
-                            <div className="i-title-item">Web Developer</div>
-                            <div className="i-title-item">Web Developer</div>
-                            <div className="i-title-item">Web Developer</div>
-                            <div className="i-title-item">Web Developer</div>
-                            <div className="i-title-item">Web Developer</div>
+                            <div className="i-title-item">ReactJS</div>
+                            <div className="i-title-item">JavaScript</div>
+                            <div className="i-title-item">HTML</div>
+                            <div className="i-title-item">CSS</div>
+                            <div className="i-title-item">SASS</div>
+                            <div className="i-title-item">BootStrap</div>
+                            <div className="i-title-item">TailWind</div>
+                            <div className="i-title-item">Git</div>
+                            <div className="i-title-item">GitHub</div>
+                            <div className="i-title-item">GitKraken</div>
                         </div>
-                    </div>
+                </div>
             </div>
             <div className="a-right-bot">
                 <div className="a-award">

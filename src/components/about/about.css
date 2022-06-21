@@ -62,10 +62,10 @@
 }
 
 .i-title {
-    height: 50px;
+    height: 80px;
     overflow: hidden;
-    padding: 5px;
-    font-size: 52px;
+    padding: 2px;
+    font-size: 47px;
     width: 30%;
 }
 
@@ -74,10 +74,10 @@
 }
 
 .i-title-b {
-    border: #333 solid 1px;
+    /* border: #333 solid 1px; */
     height: 50px;
     overflow: hidden;
-    margin-top: 30px;
+    margin-top: 50px;
     font-size: 52px;
     width: 100%;
     display: flex;
@@ -90,14 +90,26 @@
     animation: move 10s ease-in-out infinite alternate;
 }
  @keyframes move {
-    25%{
+    15%{
+        transform: translateY(-25px);
+    }
+    27%{
         transform: translateY(-50px);
     }
-    50%{
+    38%{
+        transform: translateY(-75px);
+    }
+    49%{
         transform: translateY(-100px);
+    }
+    65%{
+        transform: translateY(-125px);
     }
     75%{
         transform: translateY(-150px);
+    }
+    87%{
+        transform: translateY(-175px);
     }
     100%{
         transform: translateY(-200px);
@@ -121,11 +133,12 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .a-award {
-    width: 120px;
-    height: 120px;
+    width: 20%;
+    height: 20%;
     border-radius: 5px;
     margin: 5px;
     padding: 10px;
