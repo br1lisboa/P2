@@ -7,19 +7,20 @@ import Addres from  "../../img/addres.png"
 import "./style.css"
 
 function Contact() {
-    const formRef = useRef()
+    const form = useRef()
     const [done, setDone] = useState(false)
 
-    const handleSubmit = (e) => {
+    const sendEmail = (e) => {
         e.preventDefault()
-        emailjs.sendForm('service_vwcovl8', 'template_dzm3i9o', formRef.current, 'Gi67JK9FTgfA5fLEI')
-      .then((result) => {
-          console.log(result.text);
-          setDone(true)
-      }, (error) => {
-          console.log(error.text);
-      });
-    }
+        
+        emailjs.sendForm('service_vwcovl8', 'template_dzm3i9o', form.current, 'Gi67JK9FTgfA5fLEI')
+            .then((result) => {
+                console.log(result.text);
+                setDone(true)
+            }, (error) => {
+                console.log(error.text);
+            });
+        };
 
   return (
     <div className='c'>
@@ -46,7 +47,7 @@ function Contact() {
             <div className="c-right">
                 <div className="c-desc">
                     <b>Hello! Tell me your story.</b><p>Let's create our contact! Here a freelancer will always be available for a good project! Thanks for the interest!!</p>
-                    <form ref={formRef} onSubmit={handleSubmit}>
+                    <form ref={form} onSubmit={sendEmail}>
                         <input type="text" placeholder='Name' name="user_name"/>
                         <input type="text" placeholder='Subject' name="user_subject"/>                    
                         <input type="text" placeholder='Email' name="user_email"/>
