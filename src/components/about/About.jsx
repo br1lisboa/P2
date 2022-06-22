@@ -30,7 +30,7 @@ function About() {
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat mollitia inventore ipsa ab, nobis, cupiditate praesentium nesciunt doloremque amet in at assumenda! Voluptatum reiciendis itaque, doloremque sed ducimus ex enim.
                     </p>
                 </div>
-                <div className="i-title-b">
+                {/* <div className="i-title-b">
                         <div className="i-title-wrapper">
                             <div className="i-title-item">ReactJS</div>
                             <div className="i-title-item">JavaScript</div>
@@ -43,7 +43,7 @@ function About() {
                             <div className="i-title-item">GitHub</div>
                             <div className="i-title-item">GitKraken</div>
                         </div>
-                </div>
+                </div> */}
             </div>
             <div className="a-right-bot">
                 <div className="a-award">

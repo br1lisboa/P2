@@ -40,6 +40,7 @@
 
 .i-title-wrapper {
     height: 100%;
+    width: auto;
     animation: move 10s ease-in-out infinite alternate;
 }
  @keyframes move {
@@ -58,7 +59,7 @@
  }
 
 .i-title-item {
-    height: 50px;
+    /* height: 50px; */
     font-size: 30px;
     font-weight: bold;
     color: #59b256;
