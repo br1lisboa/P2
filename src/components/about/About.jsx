@@ -25,9 +25,9 @@ function About() {
         <div className="a-right">
             <div className="a-right-top">
                 <div className="a-right-title">
-                    <h1 className="i-title">Skills</h1>
+                    <h1 className="i-title-b">Hard Skills</h1>
                     <p className="a-sub">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat mollitia inventore ipsa ab, nobis, cupiditate praesentium nesciunt doloremque amet in at assumenda! Voluptatum reiciendis itaque, doloremque sed ducimus ex enim.
+                    Among my current knowledge I highlight, REACT JS, JavaScript, CSS, SASS, HTML; Version control technologies like GIT; GITHUB, GitKraken; Set of tools like BOOTSTRAP, TAILWIND; Tools like WORDPRESS and WooCommerce..
                     </p>
                 </div>
                 {/* <div className="i-title-b">

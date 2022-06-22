@@ -10,7 +10,7 @@ const ProductList = () => {
             <h1 className="pl-title">My Proyects</h1>
             <h2 className="pl-title-p">Shopping Cart whit JavaScript</h2>
             <p className="pl-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam autem, facilis harum odio quae obcaecati voluptate eos ducimus fugiat libero adipisci illum ea asperiores dolor similique dignissimos quisquam est odit.
+            Shopping cart using vanilla JS, making you have all the functionality of a current shopping cart!
             </p>
         </div>
         <div className="pl-list">
@@ -21,7 +21,7 @@ const ProductList = () => {
         <div className="pl-texts">
             <h2 className="pl-title-p">E-Comerce whit HTML y CSS</h2>
             <p className="pl-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam autem, facilis harum odio quae obcaecati voluptate eos ducimus fugiat libero adipisci illum ea asperiores dolor similique dignissimos quisquam est odit.
+            Layout of a complete E-Commerce, with sections such as home, products, blogs, about us, and much more!, applying a correct use of inheritance and styles.
             </p>
         </div>
         <div className="pl-list">

@@ -18,7 +18,7 @@
 
 .i-left-wrapper {
     padding: 50px;
-    height: 50%;
+    height: 65%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -92,3 +92,7 @@
     right: 0;
 }
 
+.i-desc {
+    text-align: center;
+    margin-top: 20px;
+}
