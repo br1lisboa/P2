@@ -4,6 +4,9 @@ import emailjs from '@emailjs/browser'
 import Phone from  "../../img/phone.png"
 import Email from  "../../img/email.png"
 import Addres from  "../../img/addres.png"
+import Linkedin from "../../img/in.png"
+import Github from "../../img/gthub.png"
+
 import "./style.css"
 import { ThemeContext } from '../../context'
 
@@ -44,6 +47,16 @@ function Contact() {
                <div className="c-info">
                     <div className="c-info-item">
                        <img src={Addres} alt="" className="c-icon" /> 275 La Cangaye - Resistencia - Chaco - Argentina
+                    </div>
+                </div>
+                <div className="c-info">
+                    <div className="c-info-item">
+                       <img src={Linkedin} alt="" className="c-icon" /> 275 La Cangaye - Resistencia - Chaco - Argentina
+                    </div>
+                </div>
+                <div className="c-info">
+                    <div className="c-info-item">
+                       <img src={Github} alt="" className="c-icon" /> 275 La Cangaye - Resistencia - Chaco - Argentina
                     </div>
                 </div>
             </div>
