@@ -33,3 +33,10 @@
 .p-img:hover {
     transform: translateY(-100%);
 }
+
+@media screen and (max-width: 750px) {
+    .p {
+      /* width: 40%; */
+      height: 20vh;
+    }
+  }

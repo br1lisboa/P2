@@ -120,7 +120,7 @@
     height: 50px;
     font-size: 30px;
     font-weight: bold;
-    color: #59b256;
+    color: #007EA7;
     display: flex;
     align-items: center;
 }
@@ -160,4 +160,54 @@
 .a-sub {
     text-align: center;
     margin: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .a-right-title {
+        flex-direction: column;
+    }
+
+    .a-right-top {
+        width: 100%;
+        height: 100%;
+    }
+
+    .a-right-bot {
+        width: 100%;
+        height: 100%;
+    }
+  }
+
+@media screen and (max-width:750px) {
+    .a{
+      flex-direction: column;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .a-sub{
+        width: 100%;
+        margin: 0;
+    }
+
+    .a-left {
+      width: 100%;
+    }
+
+    .a-card {
+      height: 30vh;
+    }
+
+    .a-card.bg, .a-award {
+      display: none;
+    }
+
+    .a-right{
+      width: 100%;
+    }
+    
+
+    .a-img {
+        height: 80%;
+    }
 }

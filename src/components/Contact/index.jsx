@@ -19,7 +19,7 @@ function Contact() {
     const sendEmail = (e) => {
         e.preventDefault()
         
-        emailjs.sendForm('service_vwcovl8', 'template_dzm3i9o', form.current, 'Gi67JK9FTgfA5fLEI')
+        emailjs.sendForm('service_7x2tbot', 'template_dzm3i9o', form.current, 'Gi67JK9FTgfA5fLEI')
             .then((result) => {
                 console.log(result.text);
                 setDone(true)
@@ -33,30 +33,30 @@ function Contact() {
     <div className="c-bg"></div>
         <div className="c-wrapper">
            <div className="c-left">
-                <h1 className="c-title">Ok, let's discuss your project</h1>
-                <div className="c-info">
+                <h1 className="c-title">Ok, let's discuss your project ...</h1>
+                <div claossName="c-inf">
                     <div className="c-info-item">
-                       <img src={Phone} alt="" className="c-icon" /> +54 9 3624545529
+                       <img src={Phone} alt="" className="c-icon" /> +54 9 3624545529       
                     </div>
                </div>
                <div className="c-info">
                    <div className="c-info-item">
-                      <img src={Email} alt="" className="c-icon" /> brlisbo@gmail.com
+                      <img src={Email} alt="" className="c-icon" /> brlisbo@gmail.com       
                   </div>
                 </div>
                <div className="c-info">
                     <div className="c-info-item">
-                       <img src={Addres} alt="" className="c-icon" /> 275 La Cangaye - Resistencia - Chaco - Argentina
+                       <img src={Addres} alt="" className="c-icon" /> 275 La Cangaye - Resistencia - Chaco - Argentina      
                     </div>
                 </div>
                 <div className="c-info">
                     <div className="c-info-item">
-                       <img src={Linkedin} alt="" className="c-icon" /> 275 La Cangaye - Resistencia - Chaco - Argentina
+                       <img src={Linkedin} alt="" className="c-icon" /> https://linkedin.com/in/bruno--lisboa       
                     </div>
                 </div>
                 <div className="c-info">
                     <div className="c-info-item">
-                       <img src={Github} alt="" className="c-icon" /> 275 La Cangaye - Resistencia - Chaco - Argentina
+                       <img src={Github} alt="" className="c-icon" /> https://github.com/br1lisboa     
                     </div>
                 </div>
             </div>
