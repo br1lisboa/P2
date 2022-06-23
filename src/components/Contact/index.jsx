@@ -33,7 +33,7 @@ function Contact() {
     <div className="c-bg"></div>
         <div className="c-wrapper">
            <div className="c-left">
-                <h1 className="c-title">Ok, let's discuss your project ...</h1>
+                <h1 className="c-title">Let's discuss your project ...</h1>
                 <div claossName="c-inf">
                     <div className="c-info-item">
                        <img src={Phone} alt="" className="c-icon" /> +54 9 3624545529       
@@ -51,12 +51,12 @@ function Contact() {
                 </div>
                 <div className="c-info">
                     <div className="c-info-item">
-                       <img src={Linkedin} alt="" className="c-icon" /> https://linkedin.com/in/bruno--lisboa       
+                       <img src={Linkedin} alt="" className="c-icon" /><a href="https://linkedin.com/in/bruno--lisboa">https://linkedin.com/in/bruno--lisboa</a>       
                     </div>
                 </div>
                 <div className="c-info">
                     <div className="c-info-item">
-                       <img src={Github} alt="" className="c-icon" /> https://github.com/br1lisboa     
+                       <img src={Github} alt="" className="c-icon" /> <a href="https://github.com/br1lisboa"> https://github.com/br1lisboa </a>    
                     </div>
                 </div>
             </div>
